@@ -1,0 +1,27 @@
+---
+title: "HW1"
+author: ""
+date: ""
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#### 1. (2 points) 
+Consider our paper airplane experiment as a pilot study. Now list sources of variation (from class-to-class, or EU-to-EU) that could impact differences in recorded distances. For full credit, include at least 4 sources of variation.
+
+#### 2. (2 points) 
+Based on your expertise as a paper airplane maker / thrower. What do you think would be a meaningful difference in distance between two types of paper airplanes? Why?
+
+#### 3. (2 points) 
+Given the dataset from Lab 4 (and visualization) along with your answer the Q2. Do you think you have sufficient sample size to detect the meaningful difference you specified in Q2? Why or why not.
+
+#### 4. (1 points)
+Give what you know now, how would you propose analyzing the data from the airplane experiment?
+
+
+
+
+
