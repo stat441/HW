@@ -1,0 +1,33 @@
+---
+title: "HW3"
+author: ""
+date: ""
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+
+#### 1. (2 points) 
+
+Was our treatment assignment for the paper airplane example a CRD? Why or why not?
+
+#### 2. (2 points) 
+
+Given what you now know, do you think our randomization procedure for the paper airplane experiment was reasonable? Why or why not?
+
+#### 3. (4 points) 
+
+Consider the paper airplane experiment where there are 40 EUs (corresponding to two throws for 20 participants). Using a CRD assign treatments (1 = dart and 2 = glider) to all 40 EUs. 
+
+```{r}
+airplane <- tibble(EU = 1:40, person = rep(1:20, each = 2), throw = rep(1:2, 20));
+airplane
+```
+
+#### 4. (1 point) 
+
+Include code for the treatment assignment for your project.
