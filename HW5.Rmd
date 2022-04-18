@@ -1,0 +1,119 @@
+---
+title: "HW5"
+author: ""
+date: ""
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+Choose any 10 questions to answer. I generally grade short answer questions on a 4 point scale, but for this HW only completely correct answers will be given 1 point. Partially correct (and partially incorrect) answers will be given 0 points.
+
+
+
+#### 1. 
+
+How do observational studies and designed experiments differ?
+
+#### 2. 
+
+What is pseudo-replication?
+
+#### 3. 
+Explain the following phrase "Block what you can and randomize what you cannot"
+
+#### 4. 
+What are nuisance variables and lurking variables?
+
+#### 5. 
+What are OUs and EUs?
+
+#### 6. 
+Give an example of a situation where OUs and EUs would differ.
+
+#### 7. 
+What are the four principles of experimentation?
+
+#### 8. 
+What is it important for EUs to be representative of the population?
+
+#### 9. 
+What are the benefits of increased replication of treatments?
+
+#### 10. 
+Why should treatments be randomly assigned to EUs?
+
+#### 11. 
+What does local error control mean?
+
+#### 12. 
+How does an analysis differ if a covariate is a categorical variable (factor in R) or a continuous variable. For instance, consider `lm(y ~ as.numeric(x))` vs. `lm(y ~ as.factor(x))` 
+
+#### 13. 
+What is power and how can it inform sample size decisions in a designed experiment?
+
+#### 14. 
+How can specified precision (for say, a margin of error) be used to inform sample size decisions in a designed experiment?
+
+#### 15. 
+What is a completely randomized design?
+
+#### 16. 
+How do experimental and observational error differ.
+
+#### 17. 
+What can influence experimental error?
+
+#### 18. 
+What can influence observational error?
+
+#### 19. 
+Compare and contrast controlling for a covariate using an ANCOVA model with blocking on a covariate.
+
+#### 20. 
+When should a measured covariate (that wasn't controlled for with randomization) be included in a designed study? Why is this beneficial?
+
+#### 21. 
+How do simple and main effects differ?
+
+#### 22. 
+When considering many treatment factors, why is it a bad idea to conduct an experiment while fixing the level of one treatment factor?
+
+#### 23. 
+How are inferences complicated if the treatment factors interact in a 2-factor experiment?
+
+#### 24. 
+How does a blocking factor differ from a treatment factor?
+
+#### 25. 
+What characteristics of our EUs would suggest that blocking is a good idea?
+
+#### 26. 
+How can blocking reduce experimental error?
+
+#### 27. 
+When would blocking not be useful?
+
+#### 28. 
+What is a randomized complete block design?
+
+#### 29. 
+What is a generalized randomized complete block design?
+
+#### 30. 
+How can a generalized randomized complete block design be implemented with a factorial study?
+
+#### 31. 
+What is an IBD?
+
+#### 32. 
+When (why) would a researcher choose an IBD instead of a RCBD or GRCBD?
+
+#### 33. 
+What is a latin square?
+
+#### 34. 
+How can randomization account for multiple blocking factors? 
